@@ -1,0 +1,30 @@
+html,
+body,
+div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.imageBox {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.selected {
+  opacity: .5;
+}
+
+.delete {
+  position: relative;
+  top: 5px;
+  right: 10px;
+  float: right;
+  color: red;
+  z-index: 1001;
+}

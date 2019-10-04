@@ -1,0 +1,9 @@
+{
+  "id": "dialog-extension",
+  "name": "dialog-extension",
+  "srcdoc": "./build/index.html",
+  "sidebar": false,
+  "fieldTypes": [
+    "Object"
+  ]
+}
